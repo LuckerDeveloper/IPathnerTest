@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IPathnerTest</string>
+    <string name="saveButtonText">Сохранить</string>
+    <string name="cancelButtonText">Отмена</string>
+    <string name="editTextHint">Введите текст записи</string>
+    <string name="da_textview">Дата создания: </string>
+    <string name="dm_textview">Дата модификации: </string>
+</resources>

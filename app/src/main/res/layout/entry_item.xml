@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackgroundItem"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/da_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/da_textview"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/dm_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/da_text_view"
+        android:text="@string/dm_textview"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:visibility="gone">
+    </TextView>
+
+    <TextView
+        android:id="@+id/body_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dm_text_view">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
